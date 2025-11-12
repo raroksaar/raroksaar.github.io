@@ -169,20 +169,20 @@ var exactloc = {
 
     "type": "FeatureCollection",
     "features": [
-	    {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-					27.129707, 58.603866
+	//    {
+     //       "geometry": {
+     //           "type": "Point",
+     //           "coordinates": [
+	//				27.129707, 58.603866
 
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "popupContent": 'Alatskivi loss<br><a href="https://www.mois.ee/tartu/alatskivi.shtml">Mõisa Poortal - Estonian Manors</a>'
-            },
-            "id": 51
-        },
+      //          ]
+      //      },
+       //     "type": "Feature",
+       //     "properties": {
+       //         "popupContent": 'Alatskivi loss<br><a href="https://www.mois.ee/tartu/alatskivi.shtml">Mõisa Poortal - Estonian Manors</a>'
+       //     },
+       //     "id": 51
+       // },
 
         {
             "geometry": {
@@ -272,6 +272,7 @@ var exactloc = {
 	
     ]
 };
+
 
 
 
