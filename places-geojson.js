@@ -259,19 +259,17 @@ var exactloc = {
 
 		{
 			"geometry": {"coordinates": [24.777692, 58.6868], "type": "Point"}, "properties": {"Country: ": "Eesti", "popupContent": 'Kaisma rüütlimõis  Pärnu-Jaagupi kihelkonnas Pärnumaa<br><a href="https://et.wikipedia.org/wiki/Kaisma_m%C3%B5is">Vikipeedia</a>'}, "type": "Feature"
-			
 		},
-		
-		{
-			"geometry": {"coordinates": [25.47661, 58.850228], "type": "Point"}, "properties": {"popupContent": 'Kirna mõis<br><a href="https://www.mois.ee/jarva/kirna.shtml">Mõisa Poortal - Estonian Manors</a>'}, "type": "Feature"
-			
-		},
+		//{
+		//	"geometry": {"coordinates": [25.47661, 58.850228], "type": "Point"}, "properties": {"popupContent": 'Kirna mõis<br><a href="https://www.mois.ee/jarva/kirna.shtml">Mõisa Poortal - Estonian Manors</a>'}, "type": "Feature"
+		//},
 			{"geometry": {"coordinates": [24.765067, 59.023431], "type": "Point"}, 
 			 "properties": {"Country: ": "Eesti", "popupContent": 'Alu rüütlimõis Rapla kihelkonnas Harjumaal<br><a href="https://www.mois.ee/harju/alu.shtml">Mõisa Poortal - Estonian Manors</a>'}, "type": "Feature"
 		}		
 	
     ]
 };
+
 
 
 
