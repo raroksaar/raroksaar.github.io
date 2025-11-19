@@ -61,7 +61,8 @@ var kungla = {
                 "popupContent": 'Alatskivi loss<br><a href="https://www.mois.ee/tartu/alatskivi.shtml">Mõisa Poortal - Estonian Manors</a>'
             },
             "id": 51
-            }	
+            },
+		
 		]
 };
 
@@ -202,6 +203,7 @@ var knights = {
 
 	]
 };
+
 
 
 
