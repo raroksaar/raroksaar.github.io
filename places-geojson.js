@@ -1,32 +1,7 @@
 var square = {
     "type": "FeatureCollection",
     "features": [
-//        {
- //           "type": "Feature",
-//           "geometry": {
-//				// Alatskivi   [S'58.5930199', N'58.6098346', E'27.1181135', W'27.1481482']
-//				//SE to SW to NW to NE to SE  
-//                "type": "LineString",
-//                "coordinates": [
-//				    // clockwise starting from South East point
-//                    [27.1181135, 58.5930199],
-					// vector, i.e line, from SE point to SW point
-//					[27.1481482, 58.5930199],
-					// vector from SW to NW
-//					[27.1481482, 58.6098346],
-					// vector from NW to NE
-//					[27.1181135, 58.6098346],
-					// vector from NE to SW
-//					[27.1181135, 58.5930199]
-					
-  //              ]
-//            },
-//            "properties": {
-//                'popupContent': 'Alatskivi<br><a href="https://www.mois.ee/tartu/alatskivi.shtml">Mõisa Poortal - Estonian Manors</a>',
-//                "underConstruction": false
-//            },
-//            "id": 1
-//        },
+
         {
             "type": "Feature",
             "geometry": {
@@ -70,7 +45,25 @@ var square = {
 };
 
 
+var kungla = {
+    "type": "FeatureCollection",
+    "features": [
+		    {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+					27.129707, 58.603866
 
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": 'Alatskivi loss<br><a href="https://www.mois.ee/tartu/alatskivi.shtml">Mõisa Poortal - Estonian Manors</a>'
+            },
+            "id": 51
+        }	
+		]
+};
 
 
 // draws large circle
@@ -242,6 +235,7 @@ var knights = {
 
 	]
 };
+
 
 
 
