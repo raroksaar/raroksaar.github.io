@@ -149,11 +149,6 @@ function onEachFeature(feature, layer) {
 		popupAnchor: [0, -28]
 	});
 	
-//	L.marker([58.995311, 24.719238], {icon: knightsicon}).addTo(map);
-//	L.marker([58.659799, 24.724731], {icon: knightsicon}).addTo(map);	
-	
-	
-	
 	var knightsLayer = L.geoJSON(knights, {
 		pointToLayer(feature, latlng) {
 			return L.marker(latlng, {icon: knightsicon});
@@ -161,7 +156,20 @@ function onEachFeature(feature, layer) {
 		onEachFeature
 	}).addTo(map);
 
-
+	
+	const kunglaicon = L.icon({
+		iconUrl: 'sweden_flag.bmp',
+		iconSize: [20, 25],
+		iconAnchor: [18, 20],
+		popupAnchor: [0, -28]
+	});
+	
+	var kunglaLayer = L.geoJSON(kungla, {
+		pointToLayer(feature, latlng) {
+			return L.marker(latlng, {icon: kunglaicon});
+		},
+		onEachFeature
+	}).addTo(map);
 
 
 
@@ -170,4 +178,5 @@ function onEachFeature(feature, layer) {
 
 
 </body>
+
 
