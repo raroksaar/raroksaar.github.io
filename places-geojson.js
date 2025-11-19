@@ -52,8 +52,8 @@ var kungla = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-					//27.129707, 58.603866
 					27.129707, 58.603866
+					
                 ]
             },
             "type": "Feature",
@@ -70,25 +70,6 @@ var kungla = {
 var approximate = {
     "type": "FeatureCollection",
     "features": [
-		    {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-					27.129707, 58.603866
-
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "popupContent": 'Alatskivi loss<br><a href="https://www.mois.ee/tartu/alatskivi.shtml">Mõisa Poortal - Estonian Manors</a>'
-            },
-            "id": 51
-        },
-		{
-			"geometry": {"coordinates": [25.47661, 58.850228], "type": "Point"}, "properties": {"popupContent": 'Kirna mõis<br><a href="https://www.mois.ee/jarva/kirna.shtml">Mõisa Poortal - Estonian Manors</a>'}, "type": "Feature"
-			
-		},
-
 
 		    {
             "geometry": {
@@ -129,20 +110,6 @@ var exactloc = {
 
     "type": "FeatureCollection",
     "features": [
-	    {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-					27.129707, 58.603866
-
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "popupContent": 'Alatskivi loss<br><a href="https://www.mois.ee/tartu/alatskivi.shtml">Mõisa Poortal - Estonian Manors</a>'
-            },
-            "id": 51
-        },
 
         {
             "geometry": {
@@ -235,6 +202,7 @@ var knights = {
 
 	]
 };
+
 
 
 
