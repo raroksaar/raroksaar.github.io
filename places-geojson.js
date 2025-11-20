@@ -63,7 +63,7 @@ var kungla = {
             "id": 51
             },
 		{
-			"geometry": {"coordinates": [25.47661, 58.850228], "type": "Point"}, "properties": {"popupContent": 'Kirna mõis<br><a href="https://www.mois.ee/jarva/kirna.shtml">Mõisa Poortal - Estonian Manors</a>'}, "type": "Feature"	
+			"geometry": {"coordinates": [25.47661, 58.850228], "type": "Point"}, "properties": {"popupContent": 'Kirna mõis<br><a href="https://www.mois.ee/jarva/kirna.shtml">Mõisa Poortal - Estonian Manors web site</a>'}, "type": "Feature"	
 		}		
 		]
 };
@@ -203,6 +203,7 @@ var knights = {
 
 	]
 };
+
 
 
 
