@@ -71,12 +71,23 @@
 		 link = '<a href="' + url + '" >Google maps link</a>';
 		 googlelink = coords + '<br>' + link;
       });
-	<!-- https://www.bing.com/maps/search?cp=58.807308%7E25.674388&lvl=11 -->
+	
+	// https://www.bing.com/maps/search?cp=58.807308%7E25.674388&lvl=11 -
+	var binglink = "";
+	var coords = "";
+	var link ="";
+	var url ="";
+      map.on('click', function(e) {
+	     coords = e.latlng.toString().substring(7,e.latlng.toString().length-1);
+		 url = 'https://www.bing.com/maps/search?cp=' + coords;
+		 link = '<a href="' + url + '" >Bing maps link</a>';
+		 binglink = coords + '<br>' + link;
+      });
 	
 	function onMapClick(e) {
 		popup
 			.setLatLng(e.latlng)
-			.setContent(googlelink)
+			.setContent(googlelink+binglink)
 			//.setContent(`You clicked the map at:<br> (${e.latlng.toString()}<br>=====`)
 			.openOn(map)
 	}
@@ -179,6 +190,7 @@ function onEachFeature(feature, layer) {
 
 
 </body>
+
 
 
 
