@@ -91,7 +91,7 @@
 	function onMapClick(e) {
 		popup
 			.setLatLng(e.latlng)
-			.setContent(googlelink + '<br>"Bing line"' )
+			.setContent(googlelink )
 			//.setContent(`You clicked the map at:<br> (${e.latlng.toString()}<br>=====`)
 			.openOn(map)
 	}
@@ -194,6 +194,7 @@ function onEachFeature(feature, layer) {
 
 
 </body>
+
 
 
 
