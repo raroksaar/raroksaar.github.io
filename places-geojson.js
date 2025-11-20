@@ -58,7 +58,7 @@ var kungla = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": 'Alatskivi loss<br><a href="https://www.mois.ee/tartu/alatskivi.shtml">Mõisa Poortal - Estonian Manors</a>'
+                "popupContent": 'Alatskivi loss<br><a href="https://www.mois.ee/tartu/alatskivi.shtml">Mõisa Poortal - Estonian Manors web site</a>'
             },
             "id": 51
             },
@@ -98,7 +98,7 @@ var approximate = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": '<b>Aavere rüütlimõis</b><br><a href="https://www.mois.ee/jarva/aavere.shtml">Mõisa Poortal - Estonian Manors</a>'
+                "popupContent": '<b>Aavere rüütlimõis</b><br><a href="https://www.mois.ee/jarva/aavere.shtml">Mõisa Poortal - Estonian Manors web site</a>'
             },
             "id": 54
         },
@@ -139,7 +139,7 @@ var exactloc = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": '<b>Aavere rüütlimõis</b><br><a href="https://www.mois.ee/jarva/aavere.shtml">Mõisa Poortal - Estonian Manors</a>'
+                "popupContent": '<b>Aavere rüütlimõis</b><br><a href="https://www.mois.ee/jarva/aavere.shtml">Mõisa Poortal - Estonian Manors web site</a>'
             },
             "id": 54
         },
@@ -162,7 +162,7 @@ var knights = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": 'Alavere rüütlimõis <br><a href="https://www.mois.ee//harju/alavere.shtml">Mõisa Poortal - Estonoan Manors</a>'
+                "popupContent": 'Alavere rüütlimõis <br><a href="https://www.mois.ee//harju/alavere.shtml">Mõisa Poortal - Estonoan Manors web site</a>'
             },
             "id": 55
         },
@@ -177,7 +177,7 @@ var knights = {
             },
             "type": "Feature",
             "properties": {
-				 "popupContent": '<b>Aaspere rüütlimõis</b><br><a href="https://www.mois.ee/viru/aaspere.shtml">Mõisa Poortal - Estonian Manors</a>'
+				 "popupContent": '<b>Aaspere rüütlimõis</b><br><a href="https://www.mois.ee/viru/aaspere.shtml">Mõisa Poortal - Estonian Manors web site</a>'
             }
         },
 		{
@@ -189,7 +189,7 @@ var knights = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": 'Edise mõis rüütlimõis Jõhvi kihelkonnas Virumaal<br><a href="https://www.mois.ee/viru/edise.shtml">Mõisa Poortal - Estonoan Manors</a> <br><a href="https://et.wikipedia.org/wiki/Edise_m%C3%B5is">Vikipeedia</a>'
+                "popupContent": 'Edise mõis rüütlimõis Jõhvi kihelkonnas Virumaal<br><a href="https://www.mois.ee/viru/edise.shtml">Mõisa Poortal - Estonoan Manors web site</a> <br><a href="https://et.wikipedia.org/wiki/Edise_m%C3%B5is">Vikipeedia</a>'
             },
             "id": 58
         },
@@ -203,6 +203,7 @@ var knights = {
 
 	]
 };
+
 
 
 
