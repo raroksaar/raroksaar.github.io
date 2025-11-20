@@ -79,7 +79,7 @@
 	//var coords = ""; replkace comma with %7E
 	var link ="";
 	var bingurl ="";
-	let bingcoords = coords.replace(',', "%7E");
+	let bingcoords = coords.replace(',', '~');
       map.on('click', function(e) {
 	     //coords = e.latlng.toString().substring(7,e.latlng.toString().length-1);
 		 
@@ -194,6 +194,7 @@ function onEachFeature(feature, layer) {
 
 
 </body>
+
 
 
 
