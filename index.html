@@ -65,33 +65,23 @@
 	var coords = "";
 	var link ="";
 	var url ="";
+	
       map.on('click', function(e) {
 	     coords = e.latlng.toString().substring(7,e.latlng.toString().length-1);
 		 url = 'https://www.google.com/maps/place/' + coords;
 		 link = '<a href="' + url + '" >Google maps link</a>';
 		 googlelink = coords + '<br>' + link;
-      });
-	
-	// https://www.bing.com/maps/search?cp=58.807308%7E25.674388&lvl=11 -
-	//https://www.bing.com/maps/search?cp=58.807308%7E25.674388&lvl=11&style=r
-	
-	var binglink = "";
-	//var coords = ""; replkace comma with %7E
-	var link ="";
-	var bingurl ="";
-	var bingcoords = coords.replace(', ', '~');
-      map.on('click', function(e) {
-	     //coords = e.latlng.toString().substring(7,e.latlng.toString().length-1);
-		 
-		 bingurl = 'https://www.bing.com/maps/search?cp=' + bingcoords;
-		 binglink = '<a href="' + bingurl + '" >Bing maps link</a>';
-		// binglink = link;
+		 coords = coords.replace(', ','~');
+		 bingurl = 'https://www.bing.com/maps/search?cp=' + coords;
+	     binglink = '<a href="' + bingurl + '" >Bing maps link</a>';
+
+		
       });
 	
 	function onMapClick(e) {
 		popup
 			.setLatLng(e.latlng)
-			.setContent(googlelink )
+			.setContent(googlelink + '<br>' + binglink )
 			//.setContent(`You clicked the map at:<br> (${e.latlng.toString()}<br>=====`)
 			.openOn(map)
 	}
