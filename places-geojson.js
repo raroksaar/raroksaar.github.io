@@ -80,8 +80,7 @@ var approximate = {
 var exactloc = {
     "type": "FeatureCollection",
     "features": [
-		// placehoolder
-	
+		//// placehoolder
     ]
 };
 
@@ -167,6 +166,7 @@ var knights = {
 
 	]
 };
+
 
 
 
