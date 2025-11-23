@@ -29,7 +29,7 @@
     <H2>
 	Põhineb - based on: <a href="https://www.mois.ee">Eesti Mõisa Poortal - Estonian manors</a>
 	<br>
-	Valmistatud - made with: Leaflet Javascript
+	Valmistatud - made with: <a href="https://leafletjs.com/">Leaflet Javascript</a>
 	</H2>
 
 <div id="map" style="width: 1200px; height: 800px;"></div>
@@ -45,8 +45,8 @@
 	//const inputValue = document.getElementById("loc").innerHTML;
 	const inputValue = "59.434358,24.742334";
 	
-	var tallinn = L.marker([59.434358,24.742334]).addTo(map)
-		.bindPopup('<b>Tallinn</b><br />');
+	var tallinn = L.marker([59.437097, 24.745374]).addTo(map)
+		.bindPopup('<b>Tallinn Vanalinn - Old Town</b><br />');
 		
 	const popup = L.popup()
 		.setLatLng([59.434358,24.742334])
