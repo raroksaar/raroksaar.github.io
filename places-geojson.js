@@ -72,80 +72,15 @@ var kungla = {
 // draws large circle
 var approximate = {
     "type": "FeatureCollection",
-    "features": [
-
-		    {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    25.698102,
-                    59.096909
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "popupContent": "Seidla rüütlimõis Järva-Madise kihelkonnas Järvamaal 59.096909, 25.698102"
-            },
-            "id": 51
-        },
-		{
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    26.057667,
-                    59.070663
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "popupContent": '<b>Aavere rüütlimõis</b><br><a href="https://www.mois.ee/jarva/aavere.shtml">Mõisa Poortal - Estonian Manors web site</a>'
-            },
-            "id": 54
-        },
-		
-  ///////
-    
-        
+    "features": [  
+        /// placeholder
     ]
 };
 
 var exactloc = {
-
     "type": "FeatureCollection",
     "features": [
-
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    25.698102,
-                    59.096909
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "popupContent": "Seidla rüütlimõis Järva-Madise kihelkonnas Järvamaal 59.096909, 25.698102"
-            },
-            "id": 51
-        },
-
-        {
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    26.057667,
-                    59.070663
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "popupContent": '<b>Aavere rüütlimõis</b><br><a href="https://www.mois.ee/jarva/aavere.shtml">Mõisa Poortal - Estonian Manors web site</a>'
-            },
-            "id": 54
-        },
-		
-
-
+		// placehoolder
 	
     ]
 };
@@ -200,6 +135,35 @@ var knights = {
 		{
 			"geometry": {"coordinates": [24.765067, 59.023431], "type": "Point"}, "properties": {"Country: ": "Eesti", "popupContent": 'Alu rüütlimõis Rapla kihelkonnas Harjumaal<br><a href="https://www.mois.ee/harju/alu.shtml">Mõisa Poortal - Estonian Manors</a>'}, "type": "Feature"
 		},
+		{
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.057667,
+                    59.070663
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": '<b>Aavere rüütlimõis</b><br><a href="https://www.mois.ee/jarva/aavere.shtml">Mõisa Poortal - Estonian Manors web site</a><br><a href="https://www.mois.ee/liigid.shtml">Rüütlimõis - knightly manor (right click on page to translate)</a>'
+            },
+            "id": 54
+        },
+		        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.698102,
+                    59.096909
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+				// https://www.mois.ee/jarva/seidla.shtml
+                "popupContent": '<b>Seidla rüütlimõis Järva-Madise kihelkonnas Järvamaal<br><a href="https://www.mois.ee/jarva/seidla.shtml">Mõisa Poortal - Estonian Manors web site</a><br><a href="https://www.mois.ee/liigid.shtml">Rüütlimõis - knightly manor (right click on page to translate)</a>'
+            },
+            "id": 51
+        },
 
 	]
 };
