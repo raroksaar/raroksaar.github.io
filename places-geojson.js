@@ -96,7 +96,7 @@ var knights = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": 'Alavere rüütlimõis <br><a href="https://www.mois.ee//harju/alavere.shtml">Mõisa Poortal - Estonoan Manors web site</a>'
+                "popupContent": 'Alavere rüütlimõis - knightly manor <br><a href="https://www.mois.ee//harju/alavere.shtml">Mõisa Poortal - Estonoan Manors</a>'
             },
             "id": 55
         },
@@ -111,7 +111,7 @@ var knights = {
             },
             "type": "Feature",
             "properties": {
-				 "popupContent": '<b>Aaspere rüütlimõis</b><br><a href="https://www.mois.ee/viru/aaspere.shtml">Mõisa Poortal - Estonian Manors web site</a>'
+				 "popupContent": '<b>Aaspere rüütlimõis - knightly manor</b><br><a href="https://www.mois.ee/viru/aaspere.shtml">Mõisa Poortal - Estonian Manors</a>'
             }
         },
 		{
@@ -123,16 +123,16 @@ var knights = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": 'Edise mõis rüütlimõis Jõhvi kihelkonnas Virumaal<br><a href="https://www.mois.ee/viru/edise.shtml">Mõisa Poortal - Estonoan Manors web site</a> <br><a href="https://et.wikipedia.org/wiki/Edise_m%C3%B5is">Vikipeedia</a>'
+                "popupContent": 'Edise rüütlimõis - knightly manor<br><a href="https://www.mois.ee/viru/edise.shtml">Mõisa Poortal - Estonian Manors</a> <br><a href="https://et.wikipedia.org/wiki/Edise_m%C3%B5is">Vikipeedia</a>'
             },
             "id": 58
         },
 		{
-			"geometry": {"coordinates": [24.777692, 58.6868], "type": "Point"}, "properties": {"Country: ": "Eesti", "popupContent": 'Kaisma rüütlimõis  Pärnu-Jaagupi kihelkonnas Pärnumaa<br><a href="https://et.wikipedia.org/wiki/Kaisma_m%C3%B5is">Vikipeedia</a>'}, "type": "Feature"
+			"geometry": {"coordinates": [24.777692, 58.6868], "type": "Point"}, "properties": {"Country: ": "Eesti", "popupContent": 'Kaisma rüütlimõis - knightly manor<br><a href="https://et.wikipedia.org/wiki/Kaisma_m%C3%B5is">Vikipeedia</a>'}, "type": "Feature"
 			
 		},
 		{
-			"geometry": {"coordinates": [24.765067, 59.023431], "type": "Point"}, "properties": {"Country: ": "Eesti", "popupContent": 'Alu rüütlimõis Rapla kihelkonnas Harjumaal<br><a href="https://www.mois.ee/harju/alu.shtml">Mõisa Poortal - Estonian Manors</a>'}, "type": "Feature"
+			"geometry": {"coordinates": [24.765067, 59.023431], "type": "Point"}, "properties": {"Country: ": "Eesti", "popupContent": 'Alu rüütlimõis - knightly manor<br><a href="https://www.mois.ee/harju/alu.shtml">Mõisa Poortal - Estonian Manors</a>'}, "type": "Feature"
 		},
 		{
             "geometry": {
@@ -144,7 +144,8 @@ var knights = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": '<b>Aavere rüütlimõis</b><br><a href="https://www.mois.ee/jarva/aavere.shtml">Mõisa Poortal - Estonian Manors web site</a><br><a href="https://www.mois.ee/liigid.shtml">Rüütlimõis - knightly manor (right click on page to translate)</a>'
+                "popupContent": '<b>Aavere rüütlimõis - knightly manor</b><br><a href="https://www.mois.ee/jarva/aavere.shtml">Mõisa Poortal - Estonian Manors</a>'
+				//<br><a href="https://www.mois.ee/liigid.shtml">Rüütlimõis - knightly manor (right click on page to translate)</a>'
             },
             "id": 54
         },
@@ -159,7 +160,8 @@ var knights = {
             "type": "Feature",
             "properties": {
 				// https://www.mois.ee/jarva/seidla.shtml
-                "popupContent": '<b>Seidla rüütlimõis Järva-Madise kihelkonnas Järvamaal<br><a href="https://www.mois.ee/jarva/seidla.shtml">Mõisa Poortal - Estonian Manors web site</a><br><a href="https://www.mois.ee/liigid.shtml">Rüütlimõis - knightly manor (right click on page to translate)</a>'
+                "popupContent": '<b>Seidla rüütlimõis - knightly manor<br><a href="https://www.mois.ee/jarva/seidla.shtml">Mõisa Poortal - Estonian Manors</a>'
+				//<br><a href="https://www.mois.ee/liigid.shtml">Rüütlimõis - knightly manor (right click on page to translate)</a>'
             },
             "id": 51
         },
