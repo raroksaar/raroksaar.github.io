@@ -26,8 +26,6 @@ var square = {
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-					//Ahula küla, Järva vald, Järva maakond, 73401, Eesti
-					//['59.1007529', '59.1297178', '25.7008305', '25.7629614']
 					[25.7008305, 59.1007529],
 					[25.7629614, 59.1007529],
 					[25.7629614, 59.1297178],
@@ -40,7 +38,25 @@ var square = {
                 "underConstruction": false
             },
             "id": 3
-        }
+        },
+		{
+			"type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+					[25.5943746, 59.0024891],
+					[25.5949056, 59.0024891],
+					[25.5949056, 59.0026140],
+					[25.5943746, 59.0026140],
+					[25.5943746, 59.0024891]	
+				]					
+		},
+			"properties": {
+			"popupContent": "Anna kirik - church",
+					"underConstruction": false
+			},
+			"id": 4
+		},
     ]
 };
 
@@ -74,6 +90,20 @@ var approximate = {
     "type": "FeatureCollection",
     "features": [  
         /// placeholder
+						{
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+						//25.5943746, 59.0024891
+				    25.597125, 59.008592 
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": 'Anna kirik - church'
+            },
+            "id": 55
+        },	
     ]
 };
 
@@ -81,6 +111,7 @@ var exactloc = {
     "type": "FeatureCollection",
     "features": [
 		//// placehoolder
+
     ]
 };
 
