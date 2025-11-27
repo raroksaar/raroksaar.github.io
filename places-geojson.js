@@ -44,7 +44,9 @@ var square = {
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
+				    //sw
 					[25.5943746, 59.0024891],
+					//se
 					[25.5949056, 59.0024891],
 					[25.5949056, 59.0026140],
 					[25.5943746, 59.0026140],
@@ -90,7 +92,7 @@ var approximate = {
     "type": "FeatureCollection",
     "features": [  
         /// placeholder
-						{
+		{
             "geometry": {
                 "type": "Point",
                 "coordinates": [
@@ -111,8 +113,24 @@ var exactloc = {
     "type": "FeatureCollection",
     "features": [
 		//// placehoolder
-
+		{
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+					//25.5949056, 59.0024891
+				    25.597125, 59.008592 
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": 'Anna kirik - church'
+            },
+            "id": 55
+        },	
     ]
+
+
+    
 };
 
 var knights = {
