@@ -198,7 +198,7 @@ var knights = {
             },
             "id": 54
         },
-		        {
+		{
             "geometry": {
                 "type": "Point",
                 "coordinates": [
@@ -214,6 +214,21 @@ var knights = {
             },
             "id": 51
         },
+		{
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.65919999,
+					59.15330000 
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": '<b>Albu rüütlimõis - knightly manor<br><a href=" https://www.mois.ee/jarva/albu.shtml">Mõisa Poortal - Estonian Manors</a>'
+            },
+            "id": 52
+        },
+
 
 	]
 };
