@@ -133,6 +133,27 @@ var exactloc = {
     
 };
 
+var knights_true = {
+    "type": "FeatureCollection",
+    "features": [
+			{
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.65919999,
+					59.15330000 
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": '<b>Albu rüütlimõis - knightly manor<br><a href=" https://www.mois.ee/jarva/albu.shtml">Mõisa Poortal - Estonian Manors</a>'
+            },
+            "id": 52
+        },
+	]
+}
+
+
 var knights = {
     "type": "FeatureCollection",
     "features": [
@@ -214,20 +235,7 @@ var knights = {
             },
             "id": 51
         },
-		{
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    25.65919999,
-					59.15330000 
-                ]
-            },
-            "type": "Feature",
-            "properties": {
-                "popupContent": '<b>Albu rüütlimõis - knightly manor<br><a href=" https://www.mois.ee/jarva/albu.shtml">Mõisa Poortal - Estonian Manors</a>'
-            },
-            "id": 52
-        },
+
 
 
 	]
