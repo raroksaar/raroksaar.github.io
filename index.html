@@ -118,9 +118,7 @@ function onEachFeature(feature, layer) {
 		style(feature) {
 			return feature.properties && feature.properties.style;
 		},
-
 		onEachFeature,
-
 		pointToLayer(feature, latlng) {
 			return L.circleMarker(latlng, {
 				radius: 4,
@@ -145,8 +143,6 @@ function onEachFeature(feature, layer) {
 
 		onEachFeature
 	}).addTo(map);
-	
-
 
 	const knightsicon = L.icon({
 		iconUrl: 'livonian_cross_q.bmp',
@@ -154,10 +150,23 @@ function onEachFeature(feature, layer) {
 		iconAnchor: [18, 20],
 		popupAnchor: [0, -28]
 	});
+	const knightsicon_true = L.icon({
+		iconUrl: 'livonian_cross_plain.bmp',
+		iconSize: [20, 25],
+		iconAnchor: [18, 20],
+		popupAnchor: [0, -28]
+	});	
 	
 	var knightsLayer = L.geoJSON(knights, {
 		pointToLayer(feature, latlng) {
 			return L.marker(latlng, {icon: knightsicon});
+		},
+		onEachFeature
+	}).addTo(map);
+	
+	var knightsLayer_true = L.geoJSON(knights_true, {
+		pointToLayer(feature, latlng) {
+			return L.marker(latlng, {icon: knightsicon_true});
 		},
 		onEachFeature
 	}).addTo(map);
