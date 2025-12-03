@@ -46,7 +46,8 @@
 	const inputValue = "59.434358,24.742334";
 	
 	var tallinn = L.marker([59.437097, 24.745374]).addTo(map)
-		.bindPopup('<b>Tallinn Vanalinn - Old Town</b><br />');
+		//.bindPopup('<b>Tallinn Vanalinn - Old Town</b><br><a href="help.txt"</a>');
+		.bindPopup('<b>Tallinn Vanalinn - Old Town</b><br>help text link');
 		
 	const popup = L.popup()
 		.setLatLng([59.434358,24.742334])
