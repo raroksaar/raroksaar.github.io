@@ -1,1 +1,5 @@
-If you click on an icon you get a link to the manor web page on the Estonian manors portal. Clicking anywhere else lets you open Google or Bing maps to explore the surroundings. Those maps also provide pictures if you click on their icons. Right clickin on an Estonian language page will give you a good translation.
+Ikoonile klõpsates avaneb link Eesti mõisate portaalis asuvale mõisa veebilehele. Mujal klõpsates avatakse Google'i või Bingi kaardid, et ümbrust uurida. Nende kaartide ikoonidel klõpsates saab ka pilte. Eestikeelsel lehel paremklõpsates avaneb hea tõlge.
+
+-----
+
+If you click on an icon you get a link to the manor web page on the Estonian manors portal. Clicking anywhere else lets you open Google or Bing maps to explore the surroundings. Those maps also provide pictures if you click on their icons. Right clicking on an Estonian language page will give you a good translation.
