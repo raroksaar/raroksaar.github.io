@@ -51,10 +51,9 @@
 		iconAnchor: [18, 20],
 		popupAnchor: [0, -28]
 	});	
-
-	//L.marker([51.5, -0.09], {icon: greenIcon}).addTo(map);	
+	
 	const tallinn = L.marker([59.433765, 24.744194],{icon: eesti_icon}).addTo(map)
-		.bindPopup('<b>Vabaduse väljak  - Freedom Square<br><a href="../help.html">Abi -- Help</b></a>');
+		.bindPopup('<b>Tallinn Vabaduse väljak  - Freedom Square<br><a href="../help.html">Abi -- Help</b></a><br>');
 	
 	const popup = L.popup()
 	//	.setLatLng([59.434358,24.742334])
@@ -200,6 +199,7 @@ function onEachFeature(feature, layer) {
 
 
 </body>
+
 
 
 
