@@ -43,17 +43,22 @@
 	}).addTo(map);
 
 	//const inputValue = document.getElementById("loc").innerHTML;
-	const inputValue = "59.434358,24.742334";
-	
-	var tallinn = L.marker([59.437097, 24.745374]).addTo(map)
-		//.bindPopup('<b>Tallinn Vanalinn - Old Town</b><br><a href="help.txt"</a>');
-		.bindPopup('<b>Tallinn Vanalinn - Old Town<br><a href="../help.html">Abi -- Help</b></a>');
+	//const inputValue = "59.434358,24.742334";
 
-		
-	const popup = L.popup()
-		.setLatLng([59.434358,24.742334])
-		.setContent('Old Town.');
-		//.openOn(map);
+	const eesti_icon = L.icon({
+		iconUrl: 'flag_of_Estonia.png',
+		iconSize: [25, 20],
+		iconAnchor: [18, 20],
+		popupAnchor: [0, -28]
+	});	
+
+	//L.marker([51.5, -0.09], {icon: greenIcon}).addTo(map);	
+	const tallinn = L.marker([59.437097, 24.745374],{icon: eesti_icon}).addTo(map)
+		.bindPopup('<b>Tallinn Vanalinn - Old Town<br><a href="../help.html">Abi -- Help</b></a>');
+	
+	//const popup = L.popup()
+	//	.setLatLng([59.434358,24.742334])
+	//	.setContent('Old Town.');
 
 	function onMapClick(e) {
 		popup
@@ -84,7 +89,6 @@
 		popup
 			.setLatLng(e.latlng)
 			.setContent(googlelink + '<br>' + binglink )
-			//.setContent(`You clicked the map at:<br> (${e.latlng.toString()}<br>=====`)
 			.openOn(map)
 	}
 	map.on('click', onMapClick);
@@ -152,6 +156,7 @@ function onEachFeature(feature, layer) {
 		iconAnchor: [18, 20],
 		popupAnchor: [0, -28]
 	});
+	
 	const knightsicon_true = L.icon({
 		iconUrl: 'livonian_cross_plain.bmp',
 		iconSize: [20, 25],
