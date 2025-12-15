@@ -59,12 +59,12 @@
 	//	.setLatLng([59.434358,24.742334])
 	//	.setContent('Old Town.');
 
-	function onMapClick(e) {
-		popup
-			.setLatLng(e.latlng)
-			.setContent(`You clicked the map at ${e.latlng.toString()}`)
-			.openOn(map);
-	}
+//	function onMapClick(e) {
+//		popup
+//			.setLatLng(e.latlng)
+//			.setContent(`You clicked the map at ${e.latlng.toString()}`)
+//			.openOn(map);
+//	}
 
 
 	var googlelink = "";
@@ -78,7 +78,7 @@
 		 link = '<a href="' + url + '" >Google maps link</a>';
 		 googlelink = coords + '<br>' + link;
 		 coords = coords.replace(', ','~');
-		 bingurl = 'https://www.bing.com/maps/search?cp=' + coords;
+		 bingurl = 'https://www.bing.com/maps/search?cp=' + coords + '&lvl=15';
 	     binglink = '<a href="' + bingurl + '" >Bing maps link</a>';
 
 		
