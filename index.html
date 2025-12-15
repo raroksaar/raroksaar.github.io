@@ -75,11 +75,11 @@
       map.on('click', function(e) {
 	     coords = e.latlng.toString().substring(7,e.latlng.toString().length-1);
 		 url = 'https://www.google.com/maps/place/' + coords;
-		 link = '<a href="' + url + '" >Google maps link</a>';
+		 link = '<a href="' + url + '" >Google maps</a>';
 		 googlelink = coords + '<br>' + link;
 		 coords = coords.replace(', ','~');
 		 bingurl = 'https://www.bing.com/maps/search?cp=' + coords + '&lvl=15';
-	     binglink = '<a href="' + bingurl + '" >Bing maps link</a>';
+	     binglink = '<a href="' + bingurl + '" >Bing maps</a>';
 
 		
       });
@@ -199,6 +199,7 @@ function onEachFeature(feature, layer) {
 
 
 </body>
+
 
 
 
