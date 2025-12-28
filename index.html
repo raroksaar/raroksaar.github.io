@@ -191,6 +191,20 @@ function onEachFeature(feature, layer) {
 		},
 		onEachFeature
 	}).addTo(map);
+	
+	const churchicon = L.icon({
+		iconUrl: 'blue_church.jpg',
+		iconSize: [15, 25],
+		iconAnchor: [18, 20],
+		popupAnchor: [0, -28]
+	});
+	
+	var churchLayer = L.geoJSON(church, {
+		pointToLayer(feature, latlng) {
+			return L.marker(latlng, {icon: churchicon});
+		},
+		onEachFeature
+	}).addTo(map);
 
 
 
