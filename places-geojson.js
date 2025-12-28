@@ -75,9 +75,8 @@ var church = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": 'Anna kirik - church<br><a href="https://et.wikipedia.org/wiki/Anna">Vikipeedia artikkel - Estonian Wikipedia article</a><br><a href="https://en.wikipedia.org/wiki/Saint_Anne">Vikipeedia artikkel - English Wikipedia article</a> '
-				// https://en.wikipedia.org/wiki/Saint_Anne
-				// https://et.wikipedia.org/wiki/Anna
+                "popupContent": '<a href="https://www.mois.ee/kihel/anna.shtml">Anna kihelkond - Anna congregation</a><br><a href="https://et.wikipedia.org/wiki/Anna">Anna Vikipeedia artikkel - Estonian Wikipedia article</a><br><a href="https://en.wikipedia.org/wiki/Saint_Anne">Anna Vikipeedia artikkel - English Wikipedia article</a> '
+
             },
             "id": 51
             },
