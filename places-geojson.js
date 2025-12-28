@@ -62,6 +62,28 @@ var square = {
     ]
 };
 
+var church = {
+    "type": "FeatureCollection",
+    "features": [
+		    {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+					25.5943746, 59.0024891
+					 //25.597125, 59.008592
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": 'Anna kirik - church<br><a href="https://et.wikipedia.org/wiki/Anna">Vikipeedia artikkel - Estonian Wikipedia article</a><br><a href="https://en.wikipedia.org/wiki/Saint_Anne">Vikipeedia artikkel - English Wikipedia article</a> '
+				// https://en.wikipedia.org/wiki/Saint_Anne
+				// https://et.wikipedia.org/wiki/Anna
+            },
+            "id": 51
+            },
+		
+		]
+};
 
 var kungla = {
     "type": "FeatureCollection",
@@ -95,9 +117,9 @@ var approximate = {
 		{
             "geometry": {
                 "type": "Point",
-                "coordinates": [
-						//25.5943746, 59.0024891
-				    25.597125, 59.008592 
+                "coordinates": [				
+				    //25.597125, 59.008592 
+					0,0
                 ]
             },
             "type": "Feature",
@@ -112,13 +134,12 @@ var approximate = {
 var exactloc = {
     "type": "FeatureCollection",
     "features": [
-		//// placehoolder
 		{
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-					//25.5949056, 59.0024891
-				    25.597125, 59.008592 
+				    //25.597125, 59.008592 
+					0,0
                 ]
             },
             "type": "Feature",
@@ -128,9 +149,6 @@ var exactloc = {
             "id": 55
         },	
     ]
-
-
-    
 };
 
 var knights_true = {
