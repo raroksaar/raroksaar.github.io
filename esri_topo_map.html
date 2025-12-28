@@ -120,6 +120,25 @@
 		onEachFeature
 	}).addTo(map);
 
+	const approximateLayer = L.geoJSON([approximate], {
+		style(feature) {
+			return feature.properties && feature.properties.style;
+		},
+
+		onEachFeature,
+
+		pointToLayer(feature, latlng) {
+			return L.circleMarker(latlng, {
+				radius: 7,
+				fillColor: 'white',
+				color: 'black',
+				weight: 2,
+				opacity: 5,
+				fillOpacity: 0.2
+			});
+		}
+	}).addTo(map);
+	
 	const exactLayer = L.geoJSON([exactloc], {
 		style(feature) {
 			return feature.properties && feature.properties.style;
