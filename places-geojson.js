@@ -84,7 +84,7 @@ var church = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-					24.431512, 58.910813
+					24.431684, 58.910768
                 ]
             },
             "type": "Feature",
@@ -98,7 +98,7 @@ var church = {
 };
 
 // Märjamaa kirikumõis
-// 58.913349°, 24.429905°
+// 58.913349°, 24.429905°  58.910768, 24.431684
 // https://et.wikipedia.org/wiki/M%C3%A4rjamaa_kirikum%C3%B5is
 
 var kungla = {
