@@ -80,9 +80,27 @@ var church = {
             },
             "id": 51
             },
+		    {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+					24.429905, 58.913349
+
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "popupContent": '<a href="https://www.mois.ee/kihel/marjamaa.shtml">Märjamaa kihelkond - Märjamaa congregation</a><br><a href="https://et.wikipedia.org/wiki/M%C3%A4rjamaa_kirikum%C3%B5is">Märjamaa kirikumõis Vikipeedia artikkel - Märjamaa church manor Estonian Wikipedia article</a>'
+            },
+            "id": 52
+            },
 		
 		]
 };
+
+// Märjamaa kirikumõis
+// 58.913349°, 24.429905°
+// https://et.wikipedia.org/wiki/M%C3%A4rjamaa_kirikum%C3%B5is
 
 var kungla = {
     "type": "FeatureCollection",
