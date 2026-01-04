@@ -71,6 +71,7 @@ var church = {
                 "coordinates": [
 					25.5943746, 59.0024891
 					 //25.597125, 59.008592
+					 
                 ]
             },
             "type": "Feature",
@@ -84,7 +85,7 @@ var church = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-					24.431684, 58.910768
+					24.429905, 58.913349
                 ]
             },
             "type": "Feature",
